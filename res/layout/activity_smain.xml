@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/g1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="第一关" />
+
+    <Button
+        android:id="@+id/g2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="第二关" />
+
+    <Button
+        android:id="@+id/g3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="第三关" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="20px"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/help"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="帮助"
+        android:textSize="10pt" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="制作人：guochaolang" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="日期：20150310" />
+
+</LinearLayout>
